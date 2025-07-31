@@ -1,0 +1,24 @@
+# ----------------------------------------------------
+# Environment Variables for MikroTik Hotspot Backend
+# ----------------------------------------------------
+
+# --- Paystack Configuration ---
+# Use your LIVE secret key for production
+PAYSTACK_SECRET_KEY=sk_live_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# --- MikroTik Router Configuration ---
+# The public, static IP address of your router
+MIKROTIK_HOST=YOUR_ROUTER_PUBLIC_IP
+# A dedicated, non-admin user for the API is highly recommended
+MIKROTIK_USER=your_api_user
+MIKROTIK_PASSWORD=your_api_password
+
+# --- Frontend URL ---
+# The live URL where your frontend is hosted (e.g., your Vercel URL)
+FRONTEND_URL=https://your-frontend-url.vercel.app
+
+# --- WhatsApp Configuration (Optional) ---
+# Your permanent access token from Meta for Developers
+WHATSAPP_TOKEN=your_whatsapp_token
+# The Phone Number ID from your WhatsApp Business App setup
+WHATSAPP_PHONE_NUMBER_ID=your_whatsapp_phone_number_id
